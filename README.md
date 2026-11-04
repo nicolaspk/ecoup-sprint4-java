@@ -13,7 +13,7 @@ API RESTful em Java 21 com Spring Boot 4.1.1 e Oracle JDBC. Estrutura conforme M
 
 ## Funcionalidades ainda nao implementadas
 
-Nao ha validacao de video por IA, calculo de impacto, pontuacao, ranking, premiacao mensal ou autenticacao. **O front-end React da ECOUP ja consome os endpoints localmente**, conforme testes realizados. Os deploys Render/Vercel e os testes remotos ainda estao pendentes. Nao e uma entrega final 100% enquanto esses passos nao forem verificados.
+Nao ha validacao de video por IA, calculo de impacto, pontuacao, ranking, premiacao mensal ou autenticacao. **O front-end React da ECOUP ja consome os endpoints localmente**, conforme testes realizados. O deploy Java no Render e os testes remotos estao concluidos. A publicacao do React na Vercel e uma etapa separada. Nao e uma entrega final 100% enquanto esses passos nao forem verificados.
 
 ## Estrutura
 
@@ -92,7 +92,7 @@ Os testes de 409 dependem das restricoes `UNIQUE` do email e `FOREIGN KEY` das a
 
 ## Deploy
 
-O `Dockerfile` utiliza os mesmos comandos basicos da aula para criar o JAR da ECOUP (`./mvnw clean -DskipTests package`). O deploy no Render ainda nao foi realizado. Configure no Render as mesmas tres variaveis do Oracle e verifique a conectividade do banco, se o Oracle permitir conexoes remotas.
+O `Dockerfile` utiliza os mesmos comandos basicos da aula para criar o JAR da ECOUP (`./mvnw clean -DskipTests package`). O deploy da API Java no Render esta concluido. URL publica: https://ecoup-sprint4-java.onrender.com . Os endpoints GET, POST, PUT e DELETE foram testados remotamente com acesso ao Oracle. As credenciais devem permanecer apenas nas variaveis de ambiente do Render.
 
 ## Aviso sobre segurança
 
