@@ -1,4 +1,4 @@
-# ECOUP - Sprint 4 (versao simplificada conforme aulas)
+# ECOUP - Sprint 4
 
 API RESTful em Java 21 com Spring Boot 4.1.1 e Oracle JDBC. Estrutura conforme MegaFarma e Pokedex: `to`, `dao`, `bo` e `resource`.
 
