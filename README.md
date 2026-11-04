@@ -103,3 +103,9 @@ O projeto e uma **API didatica** e nao inclui sistema de login/permissoes porque
 O front-end da Sprint 4 utiliza `POST /api/usuarios` para cadastrar um participante ficticio, `GET /api/usuarios/{codigo}` para identifica-lo na aba, `POST /api/acoes` para registrar a acao, `GET /api/acoes` para listar e `GET /api/acoes/{codigo}` para detalhar. Os demais metodos Java (PUT/DELETE de usuarios e acoes) continuam acessiveis no Insomnia, mas nao sao exibidos como botoes de administracao publica no front. 
 
 O painel da SoulUp no React e institucional e seus dados nao sao os registros Oracle da ECOUP. Use somente dados ficticios para demonstracao; os endpoints Java ainda nao tem autorizacao de acesso.
+
+## Documentacao final (PDF)
+
+A documentacao da Sprint 4 Java inclui MER exportado do Oracle SQL Developer, diagrama de classes UML exportado do Astah, tabela de endpoints, testes no Render, arquitetura, procedimentos de execucao e conclusao.
+
+- [Abrir documentacao em PDF](ECOUP_Sprint4_Java_Documentacao.pdf)
